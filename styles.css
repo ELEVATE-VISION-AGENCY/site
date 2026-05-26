@@ -980,3 +980,18 @@ body::before {
     gap: 10px;
   }
 }
+
+.footer-instagram {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(250, 248, 244, 0.4);
+  transition: color 0.3s;
+}
+
+.footer-instagram:hover {
+  color: var(--gold);
+}
